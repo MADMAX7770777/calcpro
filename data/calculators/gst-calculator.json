@@ -1,0 +1,20 @@
+{
+  "slug": "gst-calculator",
+  "title": "GST Calculator",
+  "description": "Calculate GST amount and total price, either adding or removing GST from an amount — built for Indian GST slabs.",
+  "country": ["india"],
+  "category": "finance",
+  "formula": "gst",
+  "currency": "INR",
+  "popular": true,
+  "inputs": [
+    { "name": "amount", "label": "Amount", "type": "currency", "defaultValue": 10000, "min": 0 },
+    { "name": "gstRate", "label": "GST Rate", "type": "select", "options": [{ "label": "5%", "value": 5 }, { "label": "12%", "value": 12 }, { "label": "18%", "value": 18 }, { "label": "28%", "value": 28 }], "defaultValue": 18 },
+    { "name": "mode", "label": "Calculation Mode", "type": "radio", "options": [{ "label": "Exclude GST (add GST)", "value": "exclusive" }, { "label": "Include GST (remove GST)", "value": "inclusive" }], "defaultValue": "exclusive" }
+  ],
+  "related": { "slugs": ["emi-calculator", "sip-calculator"] },
+  "faqs": [
+    { "question": "What is the difference between inclusive and exclusive GST?", "answer": "Exclusive mode treats your entered amount as the base price and adds GST on top. Inclusive mode treats your entered amount as already including GST and works backward to find the base price." },
+    { "question": "What are the common GST slabs in India?", "answer": "India uses GST slabs of 5%, 12%, 18%, and 28% depending on the category of goods or services." }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "cgpa-to-percentage-calculator",
+  "title": "CGPA to Percentage Calculator",
+  "description": "Convert your CGPA (10-point scale) to an equivalent percentage.",
+  "country": [
+    "india"
+  ],
+  "category": "education",
+  "formula": "cgpaToPercentage",
+  "inputs": [
+    {
+      "name": "cgpa",
+      "label": "CGPA (out of 10)",
+      "type": "number",
+      "defaultValue": 8.5
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What formula is used?",
+      "answer": "The commonly used India formula: Percentage = CGPA \u00d7 9.5."
+    },
+    {
+      "question": "Is this formula used by all universities?",
+      "answer": "No \u2014 some institutions use their own conversion formula. Check your university's official conversion rule for formal use."
+    }
+  ]
+}

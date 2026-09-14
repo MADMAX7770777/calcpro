@@ -1,0 +1,21 @@
+{
+  "slug": "bmi-calculator",
+  "title": "BMI Calculator",
+  "description": "Calculate your Body Mass Index (BMI) and see which weight category it falls into.",
+  "country": ["india", "us", "uk", "canada", "australia"],
+  "category": "health",
+  "formula": "bmi",
+  "popular": true,
+  "inputs": [
+    { "name": "unitSystem", "label": "Unit System", "type": "radio", "options": [{ "label": "Metric", "value": "metric" }, { "label": "Imperial", "value": "imperial" }], "defaultValue": "metric" },
+    { "name": "heightCm", "label": "Height", "type": "number", "defaultValue": 170, "min": 0, "unit": "cm" },
+    { "name": "weightKg", "label": "Weight", "type": "number", "defaultValue": 65, "min": 0, "unit": "kg" },
+    { "name": "heightInches", "label": "Height", "type": "number", "defaultValue": 67, "min": 0, "unit": "in" },
+    { "name": "weightLbs", "label": "Weight", "type": "number", "defaultValue": 143, "min": 0, "unit": "lb" }
+  ],
+  "related": { "slugs": ["age-calculator"] },
+  "faqs": [
+    { "question": "What is a healthy BMI range?", "answer": "For most adults, a BMI between 18.5 and 24.9 is considered a healthy weight range, though it doesn't account for muscle mass or body composition." },
+    { "question": "Is BMI accurate for everyone?", "answer": "BMI is a general screening tool and may not accurately reflect body composition for athletes, older adults, or pregnant individuals. It's not a diagnosis — consult a healthcare provider for personalized advice." }
+  ]
+}

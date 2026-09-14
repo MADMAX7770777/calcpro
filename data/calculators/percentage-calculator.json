@@ -1,0 +1,35 @@
+{
+  "slug": "percentage-calculator",
+  "title": "Percentage Calculator",
+  "description": "Calculate what percentage one value is of another.",
+  "country": [
+    "india"
+  ],
+  "category": "math",
+  "formula": "percentage",
+  "inputs": [
+    {
+      "name": "value",
+      "label": "Value",
+      "type": "number",
+      "defaultValue": 50
+    },
+    {
+      "name": "total",
+      "label": "Total",
+      "type": "number",
+      "defaultValue": 200
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is the percentage formula?",
+      "answer": "Percentage = (Value \u00f7 Total) \u00d7 100."
+    },
+    {
+      "question": "Can I use this for marks or scores?",
+      "answer": "Yes \u2014 enter marks obtained as Value and maximum marks as Total."
+    }
+  ]
+}

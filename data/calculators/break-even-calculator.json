@@ -1,0 +1,42 @@
+{
+  "slug": "break-even-calculator",
+  "title": "Break-Even Point Calculator",
+  "description": "Calculate how many units you need to sell to cover your fixed costs.",
+  "country": [
+    "india"
+  ],
+  "category": "business",
+  "formula": "breakEven",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "fixedCosts",
+      "label": "Total Fixed Costs",
+      "type": "currency",
+      "defaultValue": 50000
+    },
+    {
+      "name": "pricePerUnit",
+      "label": "Selling Price per Unit",
+      "type": "currency",
+      "defaultValue": 500
+    },
+    {
+      "name": "variableCostPerUnit",
+      "label": "Variable Cost per Unit",
+      "type": "currency",
+      "defaultValue": 300
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is the break-even formula?",
+      "answer": "Break-even units = Fixed Costs \u00f7 (Price per Unit \u2212 Variable Cost per Unit)."
+    },
+    {
+      "question": "What happens if price is below variable cost?",
+      "answer": "Break-even is never reached \u2014 each sale loses money regardless of volume."
+    }
+  ]
+}

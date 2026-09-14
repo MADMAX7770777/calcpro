@@ -1,0 +1,42 @@
+{
+  "slug": "tip-calculator",
+  "title": "Tip Calculator",
+  "description": "Calculate the tip amount and split the total bill between people.",
+  "country": [
+    "india"
+  ],
+  "category": "everyday",
+  "formula": "tip",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "billAmount",
+      "label": "Bill Amount",
+      "type": "currency",
+      "defaultValue": 1000
+    },
+    {
+      "name": "tipPercent",
+      "label": "Tip Percentage",
+      "type": "percentage",
+      "defaultValue": 10
+    },
+    {
+      "name": "numPeople",
+      "label": "Number of People",
+      "type": "number",
+      "defaultValue": 1
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is a typical tip percentage?",
+      "answer": "10-15% is common in India; 15-20% in the US for restaurant service."
+    },
+    {
+      "question": "How is the per-person amount calculated?",
+      "answer": "The total bill including tip is divided evenly by the number of people."
+    }
+  ]
+}

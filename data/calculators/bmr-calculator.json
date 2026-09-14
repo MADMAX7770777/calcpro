@@ -1,0 +1,60 @@
+{
+  "slug": "bmr-calculator",
+  "title": "BMR Calculator",
+  "description": "Calculate your Basal Metabolic Rate (BMR) \u2014 the calories your body burns at rest.",
+  "country": [
+    "india"
+  ],
+  "category": "health",
+  "formula": "bmr",
+  "inputs": [
+    {
+      "name": "gender",
+      "label": "Gender",
+      "type": "select",
+      "defaultValue": "male",
+      "options": [
+        {
+          "label": "Male",
+          "value": "male"
+        },
+        {
+          "label": "Female",
+          "value": "female"
+        }
+      ]
+    },
+    {
+      "name": "age",
+      "label": "Age",
+      "type": "number",
+      "defaultValue": 25,
+      "unit": "years"
+    },
+    {
+      "name": "heightCm",
+      "label": "Height",
+      "type": "number",
+      "defaultValue": 170,
+      "unit": "cm"
+    },
+    {
+      "name": "weightKg",
+      "label": "Weight",
+      "type": "number",
+      "defaultValue": 65,
+      "unit": "kg"
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What formula does this use?",
+      "answer": "The Mifflin-St Jeor equation, widely considered one of the most accurate BMR formulas."
+    },
+    {
+      "question": "Is BMR the same as calories I should eat?",
+      "answer": "No \u2014 BMR is calories burned at complete rest. Use the Calorie Calculator to factor in activity level."
+    }
+  ]
+}

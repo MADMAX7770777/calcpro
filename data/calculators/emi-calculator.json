@@ -1,0 +1,22 @@
+{
+  "slug": "emi-calculator",
+  "title": "EMI Calculator",
+  "description": "Calculate your loan EMI easily with our free EMI calculator. Plan your loan better and manage your finances smartly.",
+  "country": ["india"],
+  "category": "finance",
+  "formula": "emi",
+  "currency": "INR",
+  "chart": "donut",
+  "popular": true,
+  "inputs": [
+    { "name": "loanAmount", "label": "Loan Amount", "type": "currency", "defaultValue": 500000, "min": 0, "helpText": "Enter loan amount" },
+    { "name": "interestRate", "label": "Interest Rate (% per annum)", "type": "percentage", "defaultValue": 8.5, "min": 0, "step": 0.1, "helpText": "Enter interest rate" },
+    { "name": "loanTenure", "label": "Loan Tenure", "type": "number", "defaultValue": 5, "min": 1, "unit": "years", "helpText": "Select loan tenure" }
+  ],
+  "related": { "slugs": ["sip-calculator", "gst-calculator"] },
+  "faqs": [
+    { "question": "How is EMI calculated?", "answer": "EMI is calculated using the formula EMI = [P × r × (1+r)^n] / [(1+r)^n − 1], where P is principal, r is the monthly interest rate, and n is the tenure in months." },
+    { "question": "Does EMI change during the loan tenure?", "answer": "For a fixed-rate loan, the EMI stays the same throughout the tenure, though the split between principal and interest changes each month." },
+    { "question": "What happens if I prepay my loan?", "answer": "Prepayment reduces the outstanding principal, which lowers either your EMI or your remaining tenure, depending on what your lender offers." }
+  ]
+}

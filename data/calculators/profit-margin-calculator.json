@@ -1,0 +1,36 @@
+{
+  "slug": "profit-margin-calculator",
+  "title": "Profit Margin Calculator",
+  "description": "Calculate profit and profit margin percentage from cost and selling price.",
+  "country": [
+    "india"
+  ],
+  "category": "business",
+  "formula": "profitMargin",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "costPrice",
+      "label": "Cost Price",
+      "type": "currency",
+      "defaultValue": 500
+    },
+    {
+      "name": "sellingPrice",
+      "label": "Selling Price",
+      "type": "currency",
+      "defaultValue": 750
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is profit margin?",
+      "answer": "Profit margin = (Profit \u00f7 Selling Price) \u00d7 100 \u2014 profit as a percentage of revenue."
+    },
+    {
+      "question": "Is margin the same as markup?",
+      "answer": "No \u2014 margin is profit as a percent of selling price; markup is profit as a percent of cost price."
+    }
+  ]
+}

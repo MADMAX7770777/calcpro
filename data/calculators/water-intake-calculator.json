@@ -1,0 +1,50 @@
+{
+  "slug": "water-intake-calculator",
+  "title": "Water Intake Calculator",
+  "description": "Calculate your recommended daily water intake based on weight and activity.",
+  "country": [
+    "india"
+  ],
+  "category": "health",
+  "formula": "waterIntake",
+  "inputs": [
+    {
+      "name": "weightKg",
+      "label": "Weight",
+      "type": "number",
+      "defaultValue": 65,
+      "unit": "kg"
+    },
+    {
+      "name": "activityLevel",
+      "label": "Activity Level",
+      "type": "select",
+      "defaultValue": "low",
+      "options": [
+        {
+          "label": "Low",
+          "value": "low"
+        },
+        {
+          "label": "Moderate",
+          "value": "moderate"
+        },
+        {
+          "label": "High",
+          "value": "high"
+        }
+      ]
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What's the base formula?",
+      "answer": "Roughly 33ml per kg of body weight, plus an activity-based bonus."
+    },
+    {
+      "question": "Does climate affect water needs?",
+      "answer": "Yes \u2014 hot or humid climates increase water needs beyond this general estimate."
+    }
+  ]
+}

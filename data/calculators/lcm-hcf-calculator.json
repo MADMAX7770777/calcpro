@@ -1,0 +1,35 @@
+{
+  "slug": "lcm-hcf-calculator",
+  "title": "LCM and HCF Calculator",
+  "description": "Find the Least Common Multiple (LCM) and Highest Common Factor (HCF) of two numbers.",
+  "country": [
+    "india"
+  ],
+  "category": "math",
+  "formula": "lcmHcf",
+  "inputs": [
+    {
+      "name": "numberA",
+      "label": "First Number",
+      "type": "number",
+      "defaultValue": 12
+    },
+    {
+      "name": "numberB",
+      "label": "Second Number",
+      "type": "number",
+      "defaultValue": 18
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is HCF?",
+      "answer": "The Highest Common Factor is the largest number that divides both numbers exactly (also called GCD)."
+    },
+    {
+      "question": "How is LCM related to HCF?",
+      "answer": "LCM = (A \u00d7 B) \u00f7 HCF."
+    }
+  ]
+}

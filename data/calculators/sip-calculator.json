@@ -1,0 +1,21 @@
+{
+  "slug": "sip-calculator",
+  "title": "SIP Calculator",
+  "description": "Calculate the maturity value of your monthly SIP investments based on expected returns.",
+  "country": ["india"],
+  "category": "finance",
+  "formula": "sip",
+  "currency": "INR",
+  "chart": "donut",
+  "popular": true,
+  "inputs": [
+    { "name": "monthlyInvestment", "label": "Monthly Investment", "type": "currency", "defaultValue": 5000, "min": 0 },
+    { "name": "returnRate", "label": "Expected Annual Return", "type": "percentage", "defaultValue": 12, "min": 0, "step": 0.5 },
+    { "name": "years", "label": "Investment Period", "type": "number", "defaultValue": 10, "min": 1, "unit": "years" }
+  ],
+  "related": { "slugs": ["emi-calculator", "gst-calculator"] },
+  "faqs": [
+    { "question": "What is a SIP?", "answer": "A Systematic Investment Plan (SIP) lets you invest a fixed amount regularly, typically monthly, into a mutual fund, smoothing out market volatility over time." },
+    { "question": "Are SIP returns guaranteed?", "answer": "No. This calculator projects an estimate based on an assumed annual return you enter — actual mutual fund returns fluctuate with the market and are not guaranteed." }
+  ]
+}

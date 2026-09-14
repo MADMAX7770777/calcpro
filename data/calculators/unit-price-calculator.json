@@ -1,0 +1,36 @@
+{
+  "slug": "unit-price-calculator",
+  "title": "Unit Price Calculator",
+  "description": "Find the price per unit to compare value across different pack sizes.",
+  "country": [
+    "india"
+  ],
+  "category": "everyday",
+  "formula": "unitPrice",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "totalPrice",
+      "label": "Total Price",
+      "type": "currency",
+      "defaultValue": 250
+    },
+    {
+      "name": "quantity",
+      "label": "Quantity",
+      "type": "number",
+      "defaultValue": 5
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "Why use unit price instead of total price?",
+      "answer": "Unit price lets you fairly compare products sold in different pack sizes."
+    },
+    {
+      "question": "Can quantity be in any unit?",
+      "answer": "Yes \u2014 grams, liters, count, etc. Just be consistent when comparing two products."
+    }
+  ]
+}

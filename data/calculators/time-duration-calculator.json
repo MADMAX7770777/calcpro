@@ -1,0 +1,47 @@
+{
+  "slug": "time-duration-calculator",
+  "title": "Time Duration Calculator",
+  "description": "Calculate the duration between two times of day.",
+  "country": [
+    "india"
+  ],
+  "category": "time",
+  "formula": "timeDuration",
+  "inputs": [
+    {
+      "name": "startHour",
+      "label": "Start Hour (0-23)",
+      "type": "number",
+      "defaultValue": 9
+    },
+    {
+      "name": "startMinute",
+      "label": "Start Minute",
+      "type": "number",
+      "defaultValue": 0
+    },
+    {
+      "name": "endHour",
+      "label": "End Hour (0-23)",
+      "type": "number",
+      "defaultValue": 17
+    },
+    {
+      "name": "endMinute",
+      "label": "End Minute",
+      "type": "number",
+      "defaultValue": 30
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What if the end time is earlier than the start time?",
+      "answer": "The calculator assumes the duration crosses midnight into the next day."
+    },
+    {
+      "question": "What is this useful for?",
+      "answer": "Tracking work hours, shift lengths, or time spent on a task."
+    }
+  ]
+}

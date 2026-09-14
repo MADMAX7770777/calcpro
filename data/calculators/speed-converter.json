@@ -1,0 +1,77 @@
+{
+  "slug": "speed-converter",
+  "title": "Speed Converter",
+  "description": "Convert between common speed units.",
+  "country": [
+    "india"
+  ],
+  "category": "converters",
+  "formula": "speedConvert",
+  "inputs": [
+    {
+      "name": "value",
+      "label": "Value",
+      "type": "number",
+      "defaultValue": 100
+    },
+    {
+      "name": "fromUnit",
+      "label": "From",
+      "type": "select",
+      "defaultValue": "kmph",
+      "options": [
+        {
+          "label": "Meters/second (m/s)",
+          "value": "mps"
+        },
+        {
+          "label": "Kilometers/hour (km/h)",
+          "value": "kmph"
+        },
+        {
+          "label": "Miles/hour (mph)",
+          "value": "mph"
+        },
+        {
+          "label": "Knots",
+          "value": "knot"
+        }
+      ]
+    },
+    {
+      "name": "toUnit",
+      "label": "To",
+      "type": "select",
+      "defaultValue": "mph",
+      "options": [
+        {
+          "label": "Meters/second (m/s)",
+          "value": "mps"
+        },
+        {
+          "label": "Kilometers/hour (km/h)",
+          "value": "kmph"
+        },
+        {
+          "label": "Miles/hour (mph)",
+          "value": "mph"
+        },
+        {
+          "label": "Knots",
+          "value": "knot"
+        }
+      ]
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How many mph is 100 km/h?",
+      "answer": "100 km/h \u2248 62.14 mph."
+    },
+    {
+      "question": "What is a knot?",
+      "answer": "A knot is 1 nautical mile per hour, commonly used in aviation and marine navigation."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "discount-calculator",
+  "title": "Discount Calculator",
+  "description": "Calculate the final price after a percentage discount, and how much you save.",
+  "country": [
+    "india"
+  ],
+  "category": "everyday",
+  "formula": "discount",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "price",
+      "label": "Original Price",
+      "type": "currency",
+      "defaultValue": 1000
+    },
+    {
+      "name": "discountPercent",
+      "label": "Discount",
+      "type": "percentage",
+      "defaultValue": 20
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How is the discount applied?",
+      "answer": "The discount percentage is subtracted from the original price to get the final price."
+    },
+    {
+      "question": "Can I stack two discounts?",
+      "answer": "Not directly \u2014 apply the first discount, then use the resulting price as the new 'Original Price' for a second calculation."
+    }
+  ]
+}

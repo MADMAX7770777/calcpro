@@ -1,0 +1,66 @@
+{
+  "slug": "compound-interest-calculator",
+  "title": "Compound Interest Calculator",
+  "description": "Calculate how your investment grows with compound interest.",
+  "country": [
+    "india"
+  ],
+  "category": "finance",
+  "formula": "compoundInterest",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "principal",
+      "label": "Principal Amount",
+      "type": "currency",
+      "defaultValue": 10000
+    },
+    {
+      "name": "rate",
+      "label": "Annual Interest Rate",
+      "type": "percentage",
+      "defaultValue": 8
+    },
+    {
+      "name": "time",
+      "label": "Time Period (Years)",
+      "type": "number",
+      "defaultValue": 5
+    },
+    {
+      "name": "frequency",
+      "label": "Compounding Frequency",
+      "type": "select",
+      "defaultValue": 1,
+      "options": [
+        {
+          "label": "Annually",
+          "value": 1
+        },
+        {
+          "label": "Semi-Annually",
+          "value": 2
+        },
+        {
+          "label": "Quarterly",
+          "value": 4
+        },
+        {
+          "label": "Monthly",
+          "value": 12
+        }
+      ]
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is compound interest?",
+      "answer": "Interest calculated on the initial principal plus all interest accumulated in previous periods."
+    },
+    {
+      "question": "Does compounding frequency matter?",
+      "answer": "Yes \u2014 more frequent compounding (e.g. monthly vs annually) produces a slightly higher maturity amount for the same rate."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "age-calculator",
+  "title": "Age Calculator",
+  "description": "Find your exact age in years, months, and days, plus how long until your next birthday.",
+  "country": ["india", "us", "uk", "canada", "australia"],
+  "category": "time",
+  "formula": "age",
+  "popular": true,
+  "inputs": [
+    { "name": "dob", "label": "Date of Birth", "type": "date" },
+    { "name": "asOfDate", "label": "Calculate Age As Of", "type": "date", "helpText": "Defaults to today" }
+  ],
+  "related": { "slugs": ["emi-calculator", "bmi-calculator"] },
+  "faqs": [
+    { "question": "How is age calculated down to the day?", "answer": "We subtract your date of birth from the calculation date, carrying over days into months and months into years the same way you'd do it by hand." },
+    { "question": "Can I calculate age as of a future or past date?", "answer": "Yes — set the 'Calculate Age As Of' field to any date to see the age at that point in time." }
+  ]
+}

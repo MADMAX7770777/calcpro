@@ -1,0 +1,35 @@
+{
+  "slug": "grade-percentage-calculator",
+  "title": "Grade Percentage Calculator",
+  "description": "Calculate your exam percentage from marks obtained and total marks.",
+  "country": [
+    "india"
+  ],
+  "category": "education",
+  "formula": "percentage",
+  "inputs": [
+    {
+      "name": "value",
+      "label": "Marks Obtained",
+      "type": "number",
+      "defaultValue": 450
+    },
+    {
+      "name": "total",
+      "label": "Total Marks",
+      "type": "number",
+      "defaultValue": 500
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is the percentage formula?",
+      "answer": "Percentage = (Marks Obtained \u00f7 Total Marks) \u00d7 100."
+    },
+    {
+      "question": "Can I use this for a single subject?",
+      "answer": "Yes \u2014 enter that subject's marks and maximum marks."
+    }
+  ]
+}

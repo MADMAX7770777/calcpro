@@ -1,0 +1,35 @@
+{
+  "slug": "attendance-percentage-calculator",
+  "title": "Attendance Percentage Calculator",
+  "description": "Calculate your attendance percentage from classes attended and total classes.",
+  "country": [
+    "india"
+  ],
+  "category": "education",
+  "formula": "percentage",
+  "inputs": [
+    {
+      "name": "value",
+      "label": "Classes Attended",
+      "type": "number",
+      "defaultValue": 85
+    },
+    {
+      "name": "total",
+      "label": "Total Classes Held",
+      "type": "number",
+      "defaultValue": 100
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What attendance percentage is typically required?",
+      "answer": "Many institutions require 75% attendance to be eligible for exams, but this varies by institution."
+    },
+    {
+      "question": "How is attendance percentage calculated?",
+      "answer": "(Classes Attended \u00f7 Total Classes Held) \u00d7 100."
+    }
+  ]
+}

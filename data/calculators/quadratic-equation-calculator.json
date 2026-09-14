@@ -1,0 +1,41 @@
+{
+  "slug": "quadratic-equation-calculator",
+  "title": "Quadratic Equation Solver",
+  "description": "Solve for the roots of a quadratic equation ax\u00b2 + bx + c = 0.",
+  "country": [
+    "india"
+  ],
+  "category": "math",
+  "formula": "quadratic",
+  "inputs": [
+    {
+      "name": "a",
+      "label": "Coefficient a",
+      "type": "number",
+      "defaultValue": 1
+    },
+    {
+      "name": "b",
+      "label": "Coefficient b",
+      "type": "number",
+      "defaultValue": -3
+    },
+    {
+      "name": "c",
+      "label": "Coefficient c",
+      "type": "number",
+      "defaultValue": 2
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What if the discriminant is negative?",
+      "answer": "The equation has complex roots, shown in the form a + bi."
+    },
+    {
+      "question": "What if a is 0?",
+      "answer": "The equation is no longer quadratic \u2014 a linear equation solver would be needed instead."
+    }
+  ]
+}

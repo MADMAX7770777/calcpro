@@ -1,0 +1,93 @@
+{
+  "slug": "weight-converter",
+  "title": "Weight Converter",
+  "description": "Convert between metric and imperial weight units.",
+  "country": [
+    "india"
+  ],
+  "category": "converters",
+  "formula": "weightConvert",
+  "inputs": [
+    {
+      "name": "value",
+      "label": "Value",
+      "type": "number",
+      "defaultValue": 1
+    },
+    {
+      "name": "fromUnit",
+      "label": "From",
+      "type": "select",
+      "defaultValue": "kg",
+      "options": [
+        {
+          "label": "Milligrams (mg)",
+          "value": "mg"
+        },
+        {
+          "label": "Grams (g)",
+          "value": "g"
+        },
+        {
+          "label": "Kilograms (kg)",
+          "value": "kg"
+        },
+        {
+          "label": "Tonnes",
+          "value": "tonne"
+        },
+        {
+          "label": "Ounces (oz)",
+          "value": "oz"
+        },
+        {
+          "label": "Pounds (lb)",
+          "value": "lb"
+        }
+      ]
+    },
+    {
+      "name": "toUnit",
+      "label": "To",
+      "type": "select",
+      "defaultValue": "lb",
+      "options": [
+        {
+          "label": "Milligrams (mg)",
+          "value": "mg"
+        },
+        {
+          "label": "Grams (g)",
+          "value": "g"
+        },
+        {
+          "label": "Kilograms (kg)",
+          "value": "kg"
+        },
+        {
+          "label": "Tonnes",
+          "value": "tonne"
+        },
+        {
+          "label": "Ounces (oz)",
+          "value": "oz"
+        },
+        {
+          "label": "Pounds (lb)",
+          "value": "lb"
+        }
+      ]
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How many pounds in a kilogram?",
+      "answer": "1 kg \u2248 2.20462 lb."
+    },
+    {
+      "question": "Is a tonne the same as a ton?",
+      "answer": "This calculator uses the metric tonne (1,000 kg)."
+    }
+  ]
+}

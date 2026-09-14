@@ -1,0 +1,35 @@
+{
+  "slug": "percentile-calculator",
+  "title": "Percentile Calculator",
+  "description": "Calculate your percentile rank based on your rank and total number of candidates.",
+  "country": [
+    "india"
+  ],
+  "category": "education",
+  "formula": "percentile",
+  "inputs": [
+    {
+      "name": "rank",
+      "label": "Your Rank",
+      "type": "number",
+      "defaultValue": 500
+    },
+    {
+      "name": "totalStudents",
+      "label": "Total Candidates",
+      "type": "number",
+      "defaultValue": 10000
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How is percentile calculated?",
+      "answer": "Percentile = ((Total Candidates \u2212 Rank) \u00f7 Total Candidates) \u00d7 100."
+    },
+    {
+      "question": "What does the 90th percentile mean?",
+      "answer": "It means you scored better than (or ranked above) 90% of all candidates."
+    }
+  ]
+}

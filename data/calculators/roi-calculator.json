@@ -1,0 +1,36 @@
+{
+  "slug": "roi-calculator",
+  "title": "ROI Calculator",
+  "description": "Calculate the return on investment (ROI) as a percentage.",
+  "country": [
+    "india"
+  ],
+  "category": "business",
+  "formula": "roi",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "initialInvestment",
+      "label": "Initial Investment",
+      "type": "currency",
+      "defaultValue": 100000
+    },
+    {
+      "name": "finalValue",
+      "label": "Final Value",
+      "type": "currency",
+      "defaultValue": 130000
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is the ROI formula?",
+      "answer": "ROI = ((Final Value \u2212 Initial Investment) \u00f7 Initial Investment) \u00d7 100."
+    },
+    {
+      "question": "Does ROI account for time period?",
+      "answer": "No \u2014 this is a simple total-return ROI. Annualized ROI requires factoring in the investment duration."
+    }
+  ]
+}

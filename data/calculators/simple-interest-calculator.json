@@ -1,0 +1,42 @@
+{
+  "slug": "simple-interest-calculator",
+  "title": "Simple Interest Calculator",
+  "description": "Calculate simple interest earned on a principal amount over time.",
+  "country": [
+    "india"
+  ],
+  "category": "finance",
+  "formula": "simpleInterest",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "principal",
+      "label": "Principal Amount",
+      "type": "currency",
+      "defaultValue": 10000
+    },
+    {
+      "name": "rate",
+      "label": "Annual Interest Rate",
+      "type": "percentage",
+      "defaultValue": 8
+    },
+    {
+      "name": "time",
+      "label": "Time Period (Years)",
+      "type": "number",
+      "defaultValue": 3
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is the simple interest formula?",
+      "answer": "SI = (Principal \u00d7 Rate \u00d7 Time) / 100."
+    },
+    {
+      "question": "How is simple interest different from compound interest?",
+      "answer": "Simple interest is calculated only on the principal, while compound interest is calculated on the principal plus any accumulated interest."
+    }
+  ]
+}

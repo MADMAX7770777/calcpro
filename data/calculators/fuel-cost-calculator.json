@@ -1,0 +1,44 @@
+{
+  "slug": "fuel-cost-calculator",
+  "title": "Fuel Cost Calculator",
+  "description": "Estimate the fuel cost for a trip based on distance and mileage.",
+  "country": [
+    "india"
+  ],
+  "category": "everyday",
+  "formula": "fuelCost",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "distance",
+      "label": "Trip Distance",
+      "type": "number",
+      "defaultValue": 100,
+      "unit": "km"
+    },
+    {
+      "name": "mileage",
+      "label": "Vehicle Mileage",
+      "type": "number",
+      "defaultValue": 15,
+      "unit": "km/l"
+    },
+    {
+      "name": "fuelPrice",
+      "label": "Fuel Price (per liter)",
+      "type": "currency",
+      "defaultValue": 100
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How is fuel required calculated?",
+      "answer": "Distance divided by mileage gives the liters of fuel needed."
+    },
+    {
+      "question": "Does this account for traffic or driving style?",
+      "answer": "No \u2014 it's an estimate based on stated average mileage."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "temperature-converter",
+  "title": "Temperature Converter",
+  "description": "Convert between Celsius, Fahrenheit, and Kelvin.",
+  "country": [
+    "india"
+  ],
+  "category": "converters",
+  "formula": "temperatureConvert",
+  "inputs": [
+    {
+      "name": "value",
+      "label": "Value",
+      "type": "number",
+      "defaultValue": 0
+    },
+    {
+      "name": "fromUnit",
+      "label": "From",
+      "type": "select",
+      "defaultValue": "C",
+      "options": [
+        {
+          "label": "Celsius (\u00b0C)",
+          "value": "C"
+        },
+        {
+          "label": "Fahrenheit (\u00b0F)",
+          "value": "F"
+        },
+        {
+          "label": "Kelvin (K)",
+          "value": "K"
+        }
+      ]
+    },
+    {
+      "name": "toUnit",
+      "label": "To",
+      "type": "select",
+      "defaultValue": "F",
+      "options": [
+        {
+          "label": "Celsius (\u00b0C)",
+          "value": "C"
+        },
+        {
+          "label": "Fahrenheit (\u00b0F)",
+          "value": "F"
+        },
+        {
+          "label": "Kelvin (K)",
+          "value": "K"
+        }
+      ]
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is 0\u00b0C in Fahrenheit?",
+      "answer": "0\u00b0C equals 32\u00b0F."
+    },
+    {
+      "question": "Can Kelvin be negative?",
+      "answer": "No \u2014 Kelvin starts at absolute zero (0K = -273.15\u00b0C) and cannot go below zero."
+    }
+  ]
+}

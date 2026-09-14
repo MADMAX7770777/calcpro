@@ -1,0 +1,28 @@
+{
+  "slug": "countdown-calculator",
+  "title": "Countdown Calculator",
+  "description": "Count down the days remaining until any future date.",
+  "country": [
+    "india"
+  ],
+  "category": "time",
+  "formula": "countdown",
+  "inputs": [
+    {
+      "name": "targetDate",
+      "label": "Target Date",
+      "type": "date"
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "Can I use a past date?",
+      "answer": "Yes \u2014 the calculator will show how many days have passed since that date instead."
+    },
+    {
+      "question": "What is this commonly used for?",
+      "answer": "Weddings, exam dates, product launches, holidays, and other upcoming events."
+    }
+  ]
+}

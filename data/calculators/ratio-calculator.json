@@ -1,0 +1,35 @@
+{
+  "slug": "ratio-calculator",
+  "title": "Ratio Calculator",
+  "description": "Simplify a ratio between two numbers to its lowest terms.",
+  "country": [
+    "india"
+  ],
+  "category": "math",
+  "formula": "ratio",
+  "inputs": [
+    {
+      "name": "valueA",
+      "label": "First Value",
+      "type": "number",
+      "defaultValue": 8
+    },
+    {
+      "name": "valueB",
+      "label": "Second Value",
+      "type": "number",
+      "defaultValue": 12
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How is a ratio simplified?",
+      "answer": "Both values are divided by their greatest common divisor (GCD)."
+    },
+    {
+      "question": "Can I use decimals?",
+      "answer": "Values are rounded to the nearest whole number before simplifying."
+    }
+  ]
+}

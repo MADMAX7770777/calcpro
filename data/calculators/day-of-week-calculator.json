@@ -1,0 +1,28 @@
+{
+  "slug": "day-of-week-calculator",
+  "title": "Day of the Week Calculator",
+  "description": "Find out which day of the week any date falls on.",
+  "country": [
+    "india"
+  ],
+  "category": "time",
+  "formula": "dayOfWeek",
+  "inputs": [
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "date"
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "Does this work for past and future dates?",
+      "answer": "Yes, it works for any valid calendar date, past or future."
+    },
+    {
+      "question": "What calendar system is used?",
+      "answer": "The standard Gregorian calendar."
+    }
+  ]
+}

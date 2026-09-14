@@ -1,0 +1,36 @@
+{
+  "slug": "markup-calculator",
+  "title": "Markup Calculator",
+  "description": "Calculate the selling price needed to achieve a target markup over cost.",
+  "country": [
+    "india"
+  ],
+  "category": "business",
+  "formula": "markup",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "costPrice",
+      "label": "Cost Price",
+      "type": "currency",
+      "defaultValue": 500
+    },
+    {
+      "name": "markupPercent",
+      "label": "Markup Percentage",
+      "type": "percentage",
+      "defaultValue": 40
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "What is markup?",
+      "answer": "Markup is the amount added to cost price to determine selling price, expressed as a percentage of cost."
+    },
+    {
+      "question": "How do I convert markup to margin?",
+      "answer": "Margin % = Markup % \u00f7 (100 + Markup %) \u00d7 100."
+    }
+  ]
+}

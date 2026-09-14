@@ -1,0 +1,67 @@
+{
+  "slug": "body-fat-calculator",
+  "title": "Body Fat Calculator",
+  "description": "Estimate your body fat percentage using the US Navy method.",
+  "country": [
+    "india"
+  ],
+  "category": "health",
+  "formula": "bodyFat",
+  "inputs": [
+    {
+      "name": "gender",
+      "label": "Gender",
+      "type": "select",
+      "defaultValue": "male",
+      "options": [
+        {
+          "label": "Male",
+          "value": "male"
+        },
+        {
+          "label": "Female",
+          "value": "female"
+        }
+      ]
+    },
+    {
+      "name": "heightCm",
+      "label": "Height",
+      "type": "number",
+      "defaultValue": 170,
+      "unit": "cm"
+    },
+    {
+      "name": "waistCm",
+      "label": "Waist Circumference",
+      "type": "number",
+      "defaultValue": 80,
+      "unit": "cm"
+    },
+    {
+      "name": "neckCm",
+      "label": "Neck Circumference",
+      "type": "number",
+      "defaultValue": 38,
+      "unit": "cm"
+    },
+    {
+      "name": "hipCm",
+      "label": "Hip Circumference (women only)",
+      "type": "number",
+      "defaultValue": 0,
+      "unit": "cm"
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How accurate is this method?",
+      "answer": "The US Navy method is reasonably accurate for most body types but is an estimate, not a clinical measurement."
+    },
+    {
+      "question": "Do men need to enter hip measurement?",
+      "answer": "No \u2014 hip circumference is only used in the formula for women."
+    }
+  ]
+}

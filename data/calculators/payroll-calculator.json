@@ -1,0 +1,48 @@
+{
+  "slug": "payroll-calculator",
+  "title": "Payroll Calculator",
+  "description": "Calculate gross pay including regular and overtime hours.",
+  "country": [
+    "india"
+  ],
+  "category": "business",
+  "formula": "payroll",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "hoursWorked",
+      "label": "Regular Hours Worked",
+      "type": "number",
+      "defaultValue": 160
+    },
+    {
+      "name": "hourlyRate",
+      "label": "Hourly Rate",
+      "type": "currency",
+      "defaultValue": 200
+    },
+    {
+      "name": "overtimeHours",
+      "label": "Overtime Hours",
+      "type": "number",
+      "defaultValue": 0
+    },
+    {
+      "name": "overtimeMultiplier",
+      "label": "Overtime Multiplier",
+      "type": "number",
+      "defaultValue": 1.5
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "Does this include tax deductions?",
+      "answer": "No \u2014 this calculates gross pay only, before any tax or statutory deductions."
+    },
+    {
+      "question": "What is a typical overtime multiplier?",
+      "answer": "1.5x ('time and a half') is common; some employers use 2x for holidays."
+    }
+  ]
+}

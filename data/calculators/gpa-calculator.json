@@ -1,0 +1,35 @@
+{
+  "slug": "gpa-calculator",
+  "title": "GPA Calculator",
+  "description": "Calculate your GPA from total grade points and total credits.",
+  "country": [
+    "india"
+  ],
+  "category": "education",
+  "formula": "gpa",
+  "inputs": [
+    {
+      "name": "totalGradePoints",
+      "label": "Total Grade Points",
+      "type": "number",
+      "defaultValue": 36
+    },
+    {
+      "name": "totalCredits",
+      "label": "Total Credits",
+      "type": "number",
+      "defaultValue": 10
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How is GPA calculated?",
+      "answer": "GPA = Total Grade Points \u00f7 Total Credits."
+    },
+    {
+      "question": "How do I find my total grade points?",
+      "answer": "Multiply each course's grade point by its credit hours, then sum across all courses."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "currency-converter",
+  "title": "Currency Converter",
+  "description": "Convert between major world currencies using approximate exchange rates.",
+  "country": [
+    "india"
+  ],
+  "category": "converters",
+  "formula": "currencyConvert",
+  "inputs": [
+    {
+      "name": "amount",
+      "label": "Amount",
+      "type": "number",
+      "defaultValue": 100
+    },
+    {
+      "name": "fromCurrency",
+      "label": "From",
+      "type": "select",
+      "defaultValue": "USD",
+      "options": [
+        {
+          "label": "Indian Rupee (INR)",
+          "value": "INR"
+        },
+        {
+          "label": "US Dollar (USD)",
+          "value": "USD"
+        },
+        {
+          "label": "Euro (EUR)",
+          "value": "EUR"
+        },
+        {
+          "label": "British Pound (GBP)",
+          "value": "GBP"
+        },
+        {
+          "label": "Australian Dollar (AUD)",
+          "value": "AUD"
+        },
+        {
+          "label": "Canadian Dollar (CAD)",
+          "value": "CAD"
+        }
+      ]
+    },
+    {
+      "name": "toCurrency",
+      "label": "To",
+      "type": "select",
+      "defaultValue": "INR",
+      "options": [
+        {
+          "label": "Indian Rupee (INR)",
+          "value": "INR"
+        },
+        {
+          "label": "US Dollar (USD)",
+          "value": "USD"
+        },
+        {
+          "label": "Euro (EUR)",
+          "value": "EUR"
+        },
+        {
+          "label": "British Pound (GBP)",
+          "value": "GBP"
+        },
+        {
+          "label": "Australian Dollar (AUD)",
+          "value": "AUD"
+        },
+        {
+          "label": "Canadian Dollar (CAD)",
+          "value": "CAD"
+        }
+      ]
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "Are these live exchange rates?",
+      "answer": "No \u2014 rates used are indicative snapshots and will drift from real-time market rates. For transactions, check a live rate source."
+    },
+    {
+      "question": "Which currencies are supported?",
+      "answer": "INR, USD, EUR, GBP, AUD, and CAD, with more planned."
+    }
+  ]
+}

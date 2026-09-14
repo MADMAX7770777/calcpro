@@ -1,0 +1,33 @@
+{
+  "slug": "date-difference-calculator",
+  "title": "Date Difference Calculator",
+  "description": "Find the exact number of years, months, and days between two dates.",
+  "country": [
+    "india"
+  ],
+  "category": "time",
+  "formula": "dateDifference",
+  "inputs": [
+    {
+      "name": "startDate",
+      "label": "Start Date",
+      "type": "date"
+    },
+    {
+      "name": "endDate",
+      "label": "End Date",
+      "type": "date"
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "Does the order of dates matter?",
+      "answer": "No \u2014 the calculator automatically works out the earlier and later date."
+    },
+    {
+      "question": "Can I use this for project timelines?",
+      "answer": "Yes, it's commonly used for deadlines, anniversaries, and project duration planning."
+    }
+  ]
+}

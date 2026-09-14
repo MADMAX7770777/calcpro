@@ -1,0 +1,43 @@
+{
+  "slug": "electricity-bill-calculator",
+  "title": "Electricity Bill Calculator",
+  "description": "Estimate your electricity bill from units consumed and rate per unit.",
+  "country": [
+    "india"
+  ],
+  "category": "everyday",
+  "formula": "electricityBill",
+  "currency": "INR",
+  "inputs": [
+    {
+      "name": "unitsConsumed",
+      "label": "Units Consumed",
+      "type": "number",
+      "defaultValue": 200,
+      "unit": "kWh"
+    },
+    {
+      "name": "ratePerUnit",
+      "label": "Rate per Unit",
+      "type": "currency",
+      "defaultValue": 7
+    },
+    {
+      "name": "fixedCharge",
+      "label": "Fixed Monthly Charge",
+      "type": "currency",
+      "defaultValue": 0
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "Does this include slab-based tariffs?",
+      "answer": "No \u2014 this uses a flat rate. Actual bills with tiered/slab pricing may differ."
+    },
+    {
+      "question": "What is a 'unit' of electricity?",
+      "answer": "One unit equals one kilowatt-hour (kWh)."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "length-converter",
+  "title": "Length Converter",
+  "description": "Convert between metric and imperial length units.",
+  "country": [
+    "india"
+  ],
+  "category": "converters",
+  "formula": "lengthConvert",
+  "inputs": [
+    {
+      "name": "value",
+      "label": "Value",
+      "type": "number",
+      "defaultValue": 1
+    },
+    {
+      "name": "fromUnit",
+      "label": "From",
+      "type": "select",
+      "defaultValue": "m",
+      "options": [
+        {
+          "label": "Millimeters (mm)",
+          "value": "mm"
+        },
+        {
+          "label": "Centimeters (cm)",
+          "value": "cm"
+        },
+        {
+          "label": "Meters (m)",
+          "value": "m"
+        },
+        {
+          "label": "Kilometers (km)",
+          "value": "km"
+        },
+        {
+          "label": "Inches (in)",
+          "value": "in"
+        },
+        {
+          "label": "Feet (ft)",
+          "value": "ft"
+        },
+        {
+          "label": "Yards (yd)",
+          "value": "yd"
+        },
+        {
+          "label": "Miles (mi)",
+          "value": "mi"
+        }
+      ]
+    },
+    {
+      "name": "toUnit",
+      "label": "To",
+      "type": "select",
+      "defaultValue": "ft",
+      "options": [
+        {
+          "label": "Millimeters (mm)",
+          "value": "mm"
+        },
+        {
+          "label": "Centimeters (cm)",
+          "value": "cm"
+        },
+        {
+          "label": "Meters (m)",
+          "value": "m"
+        },
+        {
+          "label": "Kilometers (km)",
+          "value": "km"
+        },
+        {
+          "label": "Inches (in)",
+          "value": "in"
+        },
+        {
+          "label": "Feet (ft)",
+          "value": "ft"
+        },
+        {
+          "label": "Yards (yd)",
+          "value": "yd"
+        },
+        {
+          "label": "Miles (mi)",
+          "value": "mi"
+        }
+      ]
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How accurate are these conversions?",
+      "answer": "Conversions use standard internationally agreed factors (e.g. 1 inch = 2.54cm exactly)."
+    },
+    {
+      "question": "Can I convert km to miles?",
+      "answer": "Yes \u2014 select Kilometers as the 'From' unit and Miles as the 'To' unit."
+    }
+  ]
+}

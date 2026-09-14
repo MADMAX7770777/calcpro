@@ -1,0 +1,53 @@
+{
+  "slug": "average-calculator",
+  "title": "Average Calculator",
+  "description": "Calculate the average (mean) of up to five numbers.",
+  "country": [
+    "india"
+  ],
+  "category": "math",
+  "formula": "average",
+  "inputs": [
+    {
+      "name": "number1",
+      "label": "Number 1",
+      "type": "number",
+      "defaultValue": 10
+    },
+    {
+      "name": "number2",
+      "label": "Number 2",
+      "type": "number",
+      "defaultValue": 20
+    },
+    {
+      "name": "number3",
+      "label": "Number 3",
+      "type": "number",
+      "defaultValue": 30
+    },
+    {
+      "name": "number4",
+      "label": "Number 4",
+      "type": "number",
+      "defaultValue": 0
+    },
+    {
+      "name": "number5",
+      "label": "Number 5",
+      "type": "number",
+      "defaultValue": 0
+    }
+  ],
+  "popular": false,
+  "faqs": [
+    {
+      "question": "How is average calculated?",
+      "answer": "Sum of all entered numbers divided by how many numbers were entered."
+    },
+    {
+      "question": "Do I have to fill all five fields?",
+      "answer": "No \u2014 leave unused fields at 0 and they'll still be included in the count. For fewer numbers, use 0 for unused entries."
+    }
+  ]
+}
